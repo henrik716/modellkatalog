@@ -1,0 +1,289 @@
+{
+  "id": "1xh8z9d",
+  "name": "flammedata",
+  "namespace": "",
+  "description": "",
+  "version": "1.0.0",
+  "layers": [
+    {
+      "id": "pew7uh9",
+      "name": "nullattribute",
+      "description": "",
+      "properties": [
+        {
+          "id": "bbdc8kn",
+          "name": "name",
+          "title": "Name",
+          "type": "string",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {
+            "isPrimaryKey": false
+          }
+        },
+        {
+          "id": "pcq56sf",
+          "name": "fixedOrMoveable",
+          "title": "FixedOrMoveable",
+          "type": "string",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {
+            "isPrimaryKey": false
+          }
+        },
+        {
+          "id": "nux0gl0",
+          "name": "type",
+          "title": "Type",
+          "type": "string",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {
+            "isPrimaryKey": false
+          }
+        },
+        {
+          "id": "7tm1dvs",
+          "name": "status",
+          "title": "Status",
+          "type": "string",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {
+            "isPrimaryKey": false
+          }
+        },
+        {
+          "id": "zdqffgs",
+          "name": "function",
+          "title": "Function",
+          "type": "string",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {
+            "isPrimaryKey": false
+          }
+        },
+        {
+          "id": "8oturi5",
+          "name": "depth",
+          "title": "Depth",
+          "type": "number",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {
+            "isPrimaryKey": false
+          }
+        },
+        {
+          "id": "d6bgjoo",
+          "name": "surface",
+          "title": "Surface",
+          "type": "string",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {
+            "isPrimaryKey": false
+          }
+        },
+        {
+          "id": "nqmyk1p",
+          "name": "kind",
+          "title": "Kind",
+          "type": "string",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {
+            "isPrimaryKey": false
+          }
+        },
+        {
+          "id": "yy43cmq",
+          "name": "operator",
+          "title": "Operator",
+          "type": "string",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {
+            "isPrimaryKey": false
+          }
+        },
+        {
+          "id": "60oxeso",
+          "name": "nation",
+          "title": "Nation",
+          "type": "string",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {
+            "isPrimaryKey": false
+          }
+        },
+        {
+          "id": "tjqsxi4",
+          "name": "grossCapacity",
+          "title": "GrossCapacity",
+          "type": "integer",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {
+            "isPrimaryKey": false
+          }
+        },
+        {
+          "id": "k4ann4t",
+          "name": "dataCaptureDate",
+          "title": "DataCaptureDate",
+          "type": "date",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {
+            "isPrimaryKey": false
+          }
+        },
+        {
+          "id": "d2hoel1",
+          "name": "updateDate",
+          "title": "UpdateDate",
+          "type": "date",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {
+            "isPrimaryKey": false
+          }
+        },
+        {
+          "id": "loyeowk",
+          "name": "dataWithdrawalDate",
+          "title": "DataWithdrawalDate",
+          "type": "date",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {
+            "isPrimaryKey": false
+          }
+        },
+        {
+          "id": "6zf0kpc",
+          "name": "mgrs",
+          "title": "Mgrs",
+          "type": "string",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {
+            "isPrimaryKey": false
+          }
+        },
+        {
+          "id": "kat51va",
+          "name": "lat",
+          "title": "Lat",
+          "type": "number",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {
+            "isPrimaryKey": false
+          }
+        },
+        {
+          "id": "ocb7hrk",
+          "name": "lon",
+          "title": "Lon",
+          "type": "number",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {
+            "isPrimaryKey": false
+          }
+        }
+      ],
+      "geometryType": "POINT",
+      "geometryColumnName": "geom",
+      "style": {
+        "type": "simple",
+        "simpleColor": "#6366F1",
+        "categorizedColors": {},
+        "pointSize": 8,
+        "pointIcon": "circle",
+        "lineWidth": 2,
+        "lineDash": "solid",
+        "fillOpacity": 0.5,
+        "hatchStyle": "solid",
+        "hatchThickness": 1,
+        "hatchSpacing": 6
+      }
+    }
+  ],
+  "crs": "EPSG:4326",
+  "createdAt": "2026-02-15T17:51:57.069Z",
+  "updatedAt": "2026-02-15T17:51:57.070Z"
+}
