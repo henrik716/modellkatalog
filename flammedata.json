@@ -3,7 +3,7 @@
   "name": "flammedata",
   "namespace": "",
   "description": "",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "layers": [
     {
       "id": "pew7uh9",
@@ -270,7 +270,7 @@
       "geometryColumnName": "geom",
       "style": {
         "type": "simple",
-        "simpleColor": "#7C3AED",
+        "simpleColor": "#DC2626",
         "categorizedColors": {},
         "pointSize": 8,
         "pointIcon": "circle",
@@ -285,5 +285,5 @@
   ],
   "crs": "EPSG:4326",
   "createdAt": "2026-02-15T17:51:57.069Z",
-  "updatedAt": "2026-02-16T10:17:29.929Z"
+  "updatedAt": "2026-02-16T14:26:34.622Z"
 }
