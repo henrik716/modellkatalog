@@ -3,11 +3,11 @@
   "name": "flammedata",
   "namespace": "",
   "description": "",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "layers": [
     {
       "id": "pew7uh9",
-      "name": "nullattribute",
+      "name": "ekteflammer",
       "description": "",
       "properties": [
         {
@@ -266,16 +266,16 @@
           }
         }
       ],
-      "geometryType": "POINT",
+      "geometryType": "Point",
       "geometryColumnName": "geom",
       "style": {
         "type": "simple",
-        "simpleColor": "#6366F1",
+        "simpleColor": "#7C3AED",
         "categorizedColors": {},
         "pointSize": 8,
         "pointIcon": "circle",
         "lineWidth": 2,
-        "lineDash": "solid",
+        "lineDash": "dash-dot",
         "fillOpacity": 0.5,
         "hatchStyle": "solid",
         "hatchThickness": 1,
@@ -285,5 +285,5 @@
   ],
   "crs": "EPSG:4326",
   "createdAt": "2026-02-15T17:51:57.069Z",
-  "updatedAt": "2026-02-15T17:51:57.070Z"
+  "updatedAt": "2026-02-16T10:17:29.929Z"
 }
