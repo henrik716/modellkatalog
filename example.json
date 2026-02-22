@@ -3,7 +3,7 @@
   "name": "exampledata",
   "namespace": "",
   "description": "",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "layers": [
     {
       "id": "xbjumt9",
@@ -248,6 +248,23 @@
           "codelistUrl": "",
           "codelistValues": [],
           "constraints": {}
+        },
+        {
+          "id": "9uwpmez",
+          "name": "partof",
+          "title": "Relationtest",
+          "type": "relation",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {},
+          "relationConfig": {
+            "targetLayerId": "xbjumt9",
+            "relationType": "contains"
+          }
         }
       ],
       "geometryType": "Point",
@@ -264,12 +281,22 @@
         "hatchStyle": "solid",
         "hatchThickness": 1,
         "hatchSpacing": 6
-      }
+      },
+      "layerConstraints": [
+        {
+          "id": "xltqnr6",
+          "type": "compare",
+          "fieldA": "name",
+          "operator": ">",
+          "fieldB": "fixedOrMoveable",
+          "errorMessage": ""
+        }
+      ]
     }
   ],
   "crs": "EPSG:4326",
   "createdAt": "2026-02-21T14:49:25.681Z",
-  "updatedAt": "2026-02-22T09:03:38.135Z",
+  "updatedAt": "2026-02-22T19:11:39.375Z",
   "githubMeta": {
     "repo": "henrik716/modellkatalog",
     "path": "example.json",
