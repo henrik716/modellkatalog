@@ -3,7 +3,7 @@
   "name": "exampledata",
   "namespace": "",
   "description": "",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "layers": [
     {
       "id": "xbjumt9",
@@ -370,7 +370,7 @@
       "name": "layer2",
       "description": "",
       "properties": [],
-      "geometryType": "Polygon",
+      "geometryType": "GeometryCollection",
       "geometryColumnName": "geom",
       "style": {
         "type": "simple",
@@ -389,7 +389,7 @@
   ],
   "crs": "EPSG:4326",
   "createdAt": "2026-02-21T14:49:25.681Z",
-  "updatedAt": "2026-02-23T13:16:22.661Z",
+  "updatedAt": "2026-02-23T13:18:19.318Z",
   "githubMeta": {
     "repo": "henrik716/modellkatalog",
     "path": "example.json",
