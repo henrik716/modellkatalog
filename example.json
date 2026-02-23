@@ -3,7 +3,7 @@
   "name": "exampledata",
   "namespace": "",
   "description": "",
-  "version": "1.2.0",
+  "version": "1.1.0",
   "layers": [
     {
       "id": "xbjumt9",
@@ -110,13 +110,26 @@
           "id": "xj4315d",
           "name": "kind",
           "title": "Kind",
-          "type": "string",
+          "type": "codelist",
           "required": false,
           "description": "",
           "defaultValue": "",
           "codelistMode": "inline",
           "codelistUrl": "",
-          "codelistValues": [],
+          "codelistValues": [
+            {
+              "id": "0ttxdzw",
+              "code": "A",
+              "label": "Abba",
+              "description": ""
+            },
+            {
+              "id": "j49j1ip",
+              "code": "B",
+              "label": "Babba",
+              "description": ""
+            }
+          ],
           "constraints": {}
         },
         {
@@ -262,9 +275,68 @@
           "codelistValues": [],
           "constraints": {},
           "relationConfig": {
-            "targetLayerId": "xbjumt9",
+            "targetLayerId": "3zt1vv3",
             "relationType": "contains"
           }
+        },
+        {
+          "id": "ksdg8et",
+          "name": "myobject",
+          "title": "My Object",
+          "type": "object",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {},
+          "subProperties": [
+            {
+              "id": "i1469pw",
+              "name": "nested",
+              "title": "Nested object",
+              "type": "object",
+              "required": false,
+              "description": "",
+              "defaultValue": "",
+              "codelistMode": "inline",
+              "codelistUrl": "",
+              "codelistValues": [],
+              "constraints": {},
+              "subProperties": [
+                {
+                  "id": "nhpnuth",
+                  "name": "myvalue",
+                  "title": "My value",
+                  "type": "number",
+                  "required": false,
+                  "description": "",
+                  "defaultValue": "",
+                  "codelistMode": "inline",
+                  "codelistUrl": "",
+                  "codelistValues": [],
+                  "constraints": {},
+                  "subProperties": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dx3u2i2",
+          "name": "address",
+          "title": "Address",
+          "type": "shared_type",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {},
+          "subProperties": [],
+          "sharedTypeId": "mta7cx7"
         }
       ],
       "geometryType": "Point",
@@ -286,20 +358,78 @@
         {
           "id": "xltqnr6",
           "type": "compare",
-          "fieldA": "name",
+          "fieldA": "updateDate",
           "operator": ">",
-          "fieldB": "fixedOrMoveable",
+          "fieldB": "dataCaptureDate",
           "errorMessage": ""
         }
       ]
+    },
+    {
+      "id": "3zt1vv3",
+      "name": "layer2",
+      "description": "",
+      "properties": [],
+      "geometryType": "Polygon",
+      "geometryColumnName": "geom",
+      "style": {
+        "type": "simple",
+        "simpleColor": "#6366F1",
+        "categorizedColors": {},
+        "pointSize": 8,
+        "pointIcon": "circle",
+        "lineWidth": 2,
+        "lineDash": "solid",
+        "fillOpacity": 0.5,
+        "hatchStyle": "solid",
+        "hatchThickness": 1,
+        "hatchSpacing": 6
+      }
     }
   ],
   "crs": "EPSG:4326",
   "createdAt": "2026-02-21T14:49:25.681Z",
-  "updatedAt": "2026-02-22T19:11:39.375Z",
+  "updatedAt": "2026-02-23T13:16:22.661Z",
   "githubMeta": {
     "repo": "henrik716/modellkatalog",
     "path": "example.json",
     "branch": "main"
-  }
+  },
+  "sharedTypes": [
+    {
+      "id": "mta7cx7",
+      "name": "Addresses",
+      "description": "",
+      "properties": [
+        {
+          "id": "7fbd5qu",
+          "name": "main",
+          "title": "Main",
+          "type": "string",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {},
+          "subProperties": []
+        },
+        {
+          "id": "hjgikmj",
+          "name": "secondary",
+          "title": "Secondary",
+          "type": "string",
+          "required": false,
+          "description": "",
+          "defaultValue": "",
+          "codelistMode": "inline",
+          "codelistUrl": "",
+          "codelistValues": [],
+          "constraints": {},
+          "subProperties": []
+        }
+      ]
+    }
+  ]
 }
