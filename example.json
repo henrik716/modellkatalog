@@ -2,7 +2,7 @@
   "id": "3dfh8tw",
   "name": "exampledata",
   "namespace": "",
-  "description": "",
+  "description": "The exampledata dataset inventories various geographical features, primarily through its 'examplelayer' which details individual entities. Each entity is characterized by its unique name, whether it is fixed or moveable, its specific type, current operational status, primary function, and associated depth. This dataset serves to spatially identify and describe these diverse elements, facilitating geographic analysis for asset management, operational planning, or situational awareness based on their location and defined characteristics. Key attributes include the name, fixed or moveable status, type, function, and depth of each feature.",
   "version": "1.2.1",
   "layers": [
     {
@@ -45,7 +45,7 @@
           "name": "type",
           "title": "Type",
           "description": "",
-          "multiplicity": "0..1",
+          "multiplicity": "1..*",
           "defaultValue": "",
           "fieldType": {
             "kind": "primitive",
@@ -360,7 +360,7 @@
   ],
   "crs": "EPSG:4326",
   "createdAt": "2026-02-21T14:49:25.681Z",
-  "updatedAt": "2026-02-23T13:18:19.318Z",
+  "updatedAt": "2026-03-13T19:11:26.697Z",
   "githubMeta": {
     "repo": "henrik716/modellkatalog",
     "path": "example.json",
@@ -398,5 +398,21 @@
         }
       ]
     }
-  ]
+  ],
+  "renderingOrder": [
+    "xbjumt9",
+    "3zt1vv3"
+  ],
+  "metadata": {
+    "purpose": "This dataset describes various geospatial features or objects, providing key details on their type, function, and current status. Each record is uniquely identified by a name and indicates whether the feature is fixed or moveable. A critical attribute is 'depth', which defines the vertical position of each feature relative to a reference, suggesting a focus on subsurface or submerged elements. The dataset's geographic purpose is to map and characterize these features within a 3D space, facilitating analysis and management of objects with significant vertical components.",
+    "keywords": [
+      "geospatial",
+      "data",
+      "features",
+      "assets",
+      "infrastructure",
+      "mobility",
+      "objects"
+    ]
+  }
 }
